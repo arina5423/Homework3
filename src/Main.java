@@ -2,15 +2,11 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        byte time1 = 2;
-        byte time2 = 20;
-        short time3 = 24*60;
-        int time4=time3*3;
-        int time5 = time3*30;
-        byte bottle = 16;
-        System.out.println("За 20 минут машина произвела " + time2/time1*bottle + " штук бутылок" );
-        System.out.println("За сутки машина произвела " + time3/time1*bottle + " штук бутылок" );
-        System.out.println("За 3 суток машина произвела " + time4/time1*bottle + " штук бутылок" );
-        System.out.println("За месяц машина произвела " + time5/time1*bottle + " штук бутылок" );
+        byte bank =120;
+        byte white =2;
+        byte brown =4;
+        int class1 = bank/(white+brown);
+        System.out.println("В школе,где "+ class1 + " классов,нужно " +class1*white + " банок белой краски и " + class1*brown + " банок коричненой краски");
+
     }
 }
