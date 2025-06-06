@@ -2,20 +2,11 @@
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
     public static void main(String[] args) {
-        short a = -159;
-        short b = 27897;
-        long c = 987678965549L;
-        short d = 569;
-        float e = 2.786f;
-        float f = 27.12f;
-        byte i = 67;
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(c);
-        System.out.println(d);
-        System.out.println(e);
-        System.out.println(f);
-        System.out.println(i);
+        byte students1 = 23;
+        byte students2 = 27;
+        byte students3 = 30;
+        short paper = 480;
+        System.out.println("На каждого ученика рассчитано " + paper/(students1+students2+students3) + " листов бумаги");
 
     }
 }
