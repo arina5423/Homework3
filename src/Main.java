@@ -38,7 +38,7 @@ public class Main {
         short paper = 480;
         System.out.println("На каждого ученика рассчитано " + paper/(students1+students2+students3) + " листов бумаги");
         задача 4
-         */
+
         byte time1 = 2;
         byte time2 = 20;
         short time3 = 24*60;
@@ -49,6 +49,14 @@ public class Main {
         System.out.println("За сутки машина произвела " + time3/time1*bottle + " штук бутылок" );
         System.out.println("За 3 суток машина произвела " + time4/time1*bottle + " штук бутылок" );
         System.out.println("За месяц машина произвела " + time5/time1*bottle + " штук бутылок" );
+        задача 5
+         */
+        byte bank =120;
+        byte white =2;
+        byte brown =4;
+        int class1 = bank/(white+brown);
+        System.out.println("В школе,где "+ class1 + " классов,нужно " +class1*white + " банок белой краски и " + class1*brown + " банок коричненой краски");
+
 
 
     }
