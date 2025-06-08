@@ -31,12 +31,24 @@ public class Main {
         System.out.println(f);
         System.out.println(i);
         задача 3
-         */
+
         byte students1 = 23;
         byte students2 = 27;
         byte students3 = 30;
         short paper = 480;
         System.out.println("На каждого ученика рассчитано " + paper/(students1+students2+students3) + " листов бумаги");
+        задача 4
+         */
+        byte time1 = 2;
+        byte time2 = 20;
+        short time3 = 24*60;
+        int time4=time3*3;
+        int time5 = time3*30;
+        byte bottle = 16;
+        System.out.println("За 20 минут машина произвела " + time2/time1*bottle + " штук бутылок" );
+        System.out.println("За сутки машина произвела " + time3/time1*bottle + " штук бутылок" );
+        System.out.println("За 3 суток машина произвела " + time4/time1*bottle + " штук бутылок" );
+        System.out.println("За месяц машина произвела " + time5/time1*bottle + " штук бутылок" );
 
 
     }
