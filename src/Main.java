@@ -67,12 +67,23 @@ public class Main {
         System.out.println(summa + " грамм");
         System.out.println(summa1 + " кг");
         задача 7
-         */
+
         short needToReset = 7*1000;
         short weight1 = 250;
         short weight2 = 500;
         System.out.println((needToReset/weight1) + " дней, если скидывать по " + weight1 + " грамм");
         System.out.println((needToReset/weight2) + " дней, если скидывать по " + weight2 + " грамм");
+        задача 8
+         */
+        int salary1= 67760;
+        int salary2 = 83690;
+        int salary3 =  76230;
+        int new_salary1 = salary1/100*10+salary1;
+        int new_salary2 = salary2/100*10 + salary2;
+        int new_salary3 = salary3/100*10+ salary3;
+        System.out.println("Маша теперь получает " +new_salary1+ " рублей. Годовой доход вырос на " + (new_salary1 - salary1)+" рублей");
+        System.out.println("Денис теперь получает " +new_salary2+ " рублей. Годовой доход вырос на " + (new_salary2 - salary2)+" рублей");
+        System.out.println("Кристина теперь получает " +new_salary3+ " рублей. Годовой доход вырос на " + (new_salary3 - salary3)+" рублей");
 
 
 
