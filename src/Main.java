@@ -57,7 +57,7 @@ public class Main {
         int class1 = bank/(white+brown);
         System.out.println("В школе,где "+ class1 + " классов,нужно " +class1*white + " банок белой краски и " + class1*brown + " банок коричненой краски");
         задача 6
-         */
+
         short banana = 5*80;
         short milk = 105*2;
         short iceCream = 100*2;
@@ -66,6 +66,13 @@ public class Main {
         float summa1 = (banana+milk+iceCream+egg)/1000f;
         System.out.println(summa + " грамм");
         System.out.println(summa1 + " кг");
+        задача 7
+         */
+        short needToReset = 7*1000;
+        short weight1 = 250;
+        short weight2 = 500;
+        System.out.println((needToReset/weight1) + " дней, если скидывать по " + weight1 + " грамм");
+        System.out.println((needToReset/weight2) + " дней, если скидывать по " + weight2 + " грамм");
 
 
 
