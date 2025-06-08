@@ -50,12 +50,23 @@ public class Main {
         System.out.println("За 3 суток машина произвела " + time4/time1*bottle + " штук бутылок" );
         System.out.println("За месяц машина произвела " + time5/time1*bottle + " штук бутылок" );
         задача 5
-         */
+
         byte bank =120;
         byte white =2;
         byte brown =4;
         int class1 = bank/(white+brown);
         System.out.println("В школе,где "+ class1 + " классов,нужно " +class1*white + " банок белой краски и " + class1*brown + " банок коричненой краски");
+        задача 6
+         */
+        short banana = 5*80;
+        short milk = 105*2;
+        short iceCream = 100*2;
+        short egg = 4*70;
+        int summa = banana+milk+iceCream+egg;
+        float summa1 = (banana+milk+iceCream+egg)/1000f;
+        System.out.println(summa + " грамм");
+        System.out.println(summa1 + " кг");
+
 
 
 
