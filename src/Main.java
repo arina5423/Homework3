@@ -15,7 +15,7 @@ public class Main {
         System.out.println("Значение переменной d с типом long равно "+ d);
         System.out.println("Значение переменной e с типом float равно "+ e);
         System.out.println("Значение переменной f с типом double равно "+ f);
-         задача 2 */
+         задача 2
         short a = -159;
         short b = 27897;
         long c = 987678965549L;
@@ -30,6 +30,13 @@ public class Main {
         System.out.println(e);
         System.out.println(f);
         System.out.println(i);
+        задача 3
+         */
+        byte students1 = 23;
+        byte students2 = 27;
+        byte students3 = 30;
+        short paper = 480;
+        System.out.println("На каждого ученика рассчитано " + paper/(students1+students2+students3) + " листов бумаги");
 
 
     }
